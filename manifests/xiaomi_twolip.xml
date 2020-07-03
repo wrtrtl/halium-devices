@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest> 
+    <remote name="them2"
+            fetch="https://gitlab.com/the-muppets"
+            revision="refs/heads/lineage-17.1" />
+
+    <project path="device/xiaomi/twolip" name="LineageOS/android_device_xiaomi_twolip" revision="lineage-17.1" />
+    <project path="device/xiaomi/sdm660-common" name="wrtrtl/android_device_xiaomi_sdm660-common" revision="halium-9.0" />
+    <project path="kernel/xiaomi/sdm660" name="LineageOS/android_kernel_xiaomi_sdm660" revision="lineage-17.1" />
+    <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="them2" revision="lineage-17.1" />
+</manifest> 
